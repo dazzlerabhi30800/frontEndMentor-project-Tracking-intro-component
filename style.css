@@ -174,7 +174,7 @@ main {
 .description--wrapper p {
     margin-top: -.7rem;
     margin-bottom: 1.5rem;
-    font-size: 1.2rem;
+    font-size: 1rem;
     color: var(--Dark-Grayish-Blue);
 }
 
@@ -192,10 +192,9 @@ main {
     border-radius: 5px;
     background: var(--Red);
     color: #fff;
-    font-size: 1rem;
+    font-size: .7rem;
     text-transform: uppercase;
     font-weight: 700;
-    letter-spacing: 1px;
 }
 
 .preview {
@@ -241,6 +240,14 @@ main {
 
     .menu--btn {
         cursor: pointer;
+    }
+
+    .preview--wrapper .demo {
+        cursor: pointer;
+        transition: all .3s linear;
+    }
+    .preview--wrapper .demo:hover {
+        background: hsl(0, 100%, 58%);
     }
 
 }
